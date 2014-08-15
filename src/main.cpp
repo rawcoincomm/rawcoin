@@ -986,7 +986,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
 {
     int64_t nRewardCoinYear;
 
-     if (pindexBest->nHeight < 60000)
+     if (pindexBest->nHeight < 69000)
 
      {
              nRewardCoinYear = MAX_MINT_PROOF_OF_STAKE;
